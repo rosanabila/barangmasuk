@@ -19,11 +19,19 @@
                         <form>
                             <div class="mb-3">
                                 <label for="email" class="form-label">Email Address</label>
-                                <input type="email" class="form-control" id="email" autocomplete="new-password" placeholder="youremail@gmail.com">
+                                <input type="email" class="form-control" id="email" autocomplete="new-password" placeholder="youremail@gmail.com" required>
                             </div>
                             <div class="mb-3">
                                 <label for="password" class="form-label">Password</label>
-                                <input type="password" class="form-control" id="password" autocomplete="new-password" placeholder="Password">
+                                <input type="password" class="form-control" id="password" autocomplete="new-password" placeholder="Password" required>
                             </div>
                             <button type="submit" class="btn btn-primary w-100">Login</button>
-          
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
